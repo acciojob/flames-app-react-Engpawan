@@ -53,12 +53,12 @@ const App = () => {
                     sum+=items
                 }
 
-                setshow(arr[sum%6])
+                setshow(arr[sum % 6])
 
-                if(sum==0)
+                if(sum == 0)
                 {
                     setshow("Please Enter valid input")
-                    return
+                    return;
                 }
             
             }} data-testid="calculate_relationship" name="calculate_relationship">Calculate Relationship Future</button>
