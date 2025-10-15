@@ -12,10 +12,10 @@ const App = () => {
         <div>
             <input onChange={(e) =>{
                 setName1(e.target.value)
-            }}value={Name1} data-testid="input1" name="Name1"/>
+            }}value={Name1} data-testid="input1" name="name1"/>
             <input onChange={(e) =>{
                 setName2(e.target.value)
-            }} value={Name2}  data-testid="input2" name="Name2"/>
+            }} value={Name2}  data-testid="input2" name="name2"/>
             <button onClick={() =>{
                 let map = new Map()
             for(let i = 0; i < Name1.length; i++)
